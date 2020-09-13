@@ -1,0 +1,21 @@
+mini-calendar .none{
+    display: none!important;
+}
+mini-calendar menu{
+    margin: 0;
+}
+mini-calendar menu > *{
+    display: inline-block;
+    margin: 0;
+}
+mini-calendar .weeks button {
+    padding: 0;
+    width: 30px;
+}
+mini-calendar .weeks button.external {
+    opacity: 0.5;
+}
+mini-calendar .weeks button.this-day{
+    color: purple;
+    background-color: violet;
+}
